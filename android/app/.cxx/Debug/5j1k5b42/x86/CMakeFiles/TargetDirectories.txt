@@ -1,0 +1,2 @@
+C:/Users/luminar technolab/Documents/class/Dec 2024/shopping_cart_sample_dec/android/app/.cxx/Debug/5j1k5b42/x86/CMakeFiles/edit_cache.dir
+C:/Users/luminar technolab/Documents/class/Dec 2024/shopping_cart_sample_dec/android/app/.cxx/Debug/5j1k5b42/x86/CMakeFiles/rebuild_cache.dir
