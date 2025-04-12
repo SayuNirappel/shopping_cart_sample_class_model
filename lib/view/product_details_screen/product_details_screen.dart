@@ -152,7 +152,10 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                             style: TextStyle(color: Colors.grey, fontSize: 16),
                           ),
                           Text(
-                            "RS ${productDetailsScreenController.productDetails?.price.toString() ?? ""}",
+                            // "RS ${productDetailsScreenController.productDetails?.price?.toStringAsFixed(2) ?? ""}",
+                            productDetailsScreenController.productDetails?.price
+                                    ?.toStringAsFixed(2) ??
+                                "",
                             style: TextStyle(
                                 color: Colors.black,
                                 fontWeight: FontWeight.bold,

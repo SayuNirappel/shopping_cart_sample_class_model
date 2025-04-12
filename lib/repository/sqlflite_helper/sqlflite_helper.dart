@@ -55,4 +55,9 @@ class SqlfliteHelper {
         'DELETE FROM ${AppConfig.tableName} WHERE ${AppConfig.primaryKey} = ?',
         [id]);
   }
+
+  //delete all
+
+  static Future<int> deleteAll() async =>
+      await database.delete(AppConfig.tableName);
 }
